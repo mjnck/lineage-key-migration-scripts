@@ -62,6 +62,8 @@ eval "orig_key=\"\$${1}_key\""
 eval "new_cert=\"\$${2}_cert\""
 eval "new_key=\"\$${2}_key\""
 
+echo "Migrating $1 to $2"
+
 # If there's a "backup" copy, then the current packages.xml might
 # be corrupted, so overwrite it with the backup copy. This is what
 # PackageManager would do.
