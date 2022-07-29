@@ -1,0 +1,3 @@
+adb shell
+setprop persist.sys.binary_xml false
+reboot
